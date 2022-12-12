@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="kacamata.FXMLpelangganController">
+   <children>
+      <TableView fx:id="tbvp" layoutX="7.0" prefHeight="315.0" prefWidth="585.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <Button fx:id="tambah" layoutX="40.0" layoutY="331.0" mnemonicParsing="false" onAction="#tambahklik" text="Tambah" />
+      <Button fx:id="hapus" layoutX="123.0" layoutY="331.0" mnemonicParsing="false" onAction="#hapusklik" text="Hapus" />
+      <Button fx:id="ubah" layoutX="200.0" layoutY="331.0" mnemonicParsing="false" onAction="#ubahklik" text="Ubah" />
+      <Button fx:id="keluar" layoutX="261.0" layoutY="331.0" mnemonicParsing="false" onAction="#keluarklik" text="Keluar" />
+   </children>
+</AnchorPane>

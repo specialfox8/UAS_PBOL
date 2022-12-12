@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="473.0" prefWidth="713.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kacamata.FXML_belikacaController">
+   <children>
+      <Label layoutX="40.0" layoutY="34.0" text="No Faktur" />
+      <Label layoutX="49.0" layoutY="133.0" text="Nama " />
+      <Label layoutX="47.0" layoutY="165.0" text="Tipe lensa" />
+      <Label layoutX="47.0" layoutY="268.0" text="Jumlah" />
+      <Label layoutX="52.0" layoutY="314.0" text="Total" />
+      <Button fx:id="hitung" layoutX="47.0" layoutY="364.0" mnemonicParsing="false" onAction="#hitungklik" text="Hitung" />
+      <Button fx:id="hapus" layoutX="191.0" layoutY="364.0" mnemonicParsing="false" onAction="#hapusklik" text="Hapus" />
+      <Button fx:id="keluar" layoutX="254.0" layoutY="364.0" mnemonicParsing="false" onAction="#keluarklik" text="Keluar" />
+      <TextField fx:id="txtidjual" layoutX="154.0" layoutY="30.0" />
+      <ComboBox fx:id="tipekaca" layoutX="154.0" layoutY="161.0" prefWidth="150.0" />
+      <TextField fx:id="pelanggan" layoutX="155.0" layoutY="129.0" />
+      <TextField fx:id="txttotal" layoutX="154.0" layoutY="310.0" />
+      <Button fx:id="simpan" layoutX="121.0" layoutY="364.0" mnemonicParsing="false" onAction="#simpanklik" text="Simpan" />
+      <Label layoutX="38.0" layoutY="206.0" text="Tipe Frame" />
+      <Label layoutX="45.0" layoutY="65.0" text="Tanggal" />
+      <DatePicker fx:id="dtptanggal" layoutX="154.0" layoutY="61.0" />
+      <TableView fx:id="tbvdetil" layoutX="339.0" layoutY="25.0" prefHeight="321.0" prefWidth="365.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <TextField fx:id="tipeframe" layoutX="154.0" layoutY="202.0" />
+      <TextField fx:id="jumlah" layoutX="154.0" layoutY="264.0" />
+      <Label layoutX="45.0" layoutY="100.0" text="Id kaca" />
+      <TextField fx:id="idkaca" layoutX="155.0" layoutY="96.0" />
+      <Label layoutX="48.0" layoutY="237.0" text="Alamat" />
+      <TextField fx:id="alamat" layoutX="155.0" layoutY="233.0" />
+   </children>
+</AnchorPane>

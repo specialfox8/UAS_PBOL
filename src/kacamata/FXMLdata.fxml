@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="294.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kacamata.FXMLdataController">
+   <children>
+      <TableView fx:id="tbvkaca" prefHeight="321.0" prefWidth="294.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="74.0" text="C2" />
+        </columns>
+      </TableView>
+      <Button fx:id="keluar" layoutX="32.0" layoutY="340.0" mnemonicParsing="false" onAction="#keluarklik" text="Keluar" />
+   </children>
+</AnchorPane>
